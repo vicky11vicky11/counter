@@ -1,0 +1,35 @@
+* {
+    background-color: teal;
+}
+
+body {
+    position: absolute;
+}
+
+#myvalue {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    display: block;
+    margin: 50px auto;
+}
+
+
+#increasebtn,
+#resetbtn,
+#decreasebtn {
+    position: relative;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    padding: auto;
+    display: block;
+    border: 3px orange double;
+    left: 45%;
+    right: 45%;
+    width: 150px;
+}
